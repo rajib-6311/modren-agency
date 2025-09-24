@@ -4,6 +4,8 @@ import Hero from "./Components/Hero";
 import CompanyLogo from "./Components/CompanyLogo";
 import Services from "./Components/Services";
 import OurWork from "./Components/OurWork";
+import Teams from "./Components/Teams";
+import ContactUs from "./Components/ContactUs";
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
       <CompanyLogo/>
       <Services/>
       <OurWork/>
+      <Teams/>
+      <ContactUs/>
     </div>
   );
 };
