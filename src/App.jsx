@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import OurWork from "./Components/OurWork";
 import Teams from "./Components/Teams";
 import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <OurWork/>
       <Teams/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 };
